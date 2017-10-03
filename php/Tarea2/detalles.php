@@ -9,7 +9,7 @@ $db = new mysqli('localhost',  'root', '',"registrocivil");
 			    die('No pudo conectarse: ' . mysql_error());
 			}
 
-			$sql="SELECT *FROM personas WHERE cedula= ?";
+			$sql="SELECT * FROM personas WHERE cedula= ?";
 			
 			$consulta=$db->prepare($sql);
 
