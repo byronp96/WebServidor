@@ -4,12 +4,12 @@ if (isset($_GET['cedula'])) {
 
 
 
-$db = new mysqli('localhost',  'usuario', 'usuario',"semana4");
+$db = new mysqli('localhost',  'root', '',"registrocivil");
 			if  (!$db) {
 			    die('No pudo conectarse: ' . mysql_error());
 			}
 
-			$sql="SELECT *FROM personas WHERE cedula= ?";
+			$sql="SELECT * FROM personas WHERE cedula= ?";
 			
 			$consulta=$db->prepare($sql);
 
