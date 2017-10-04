@@ -1,8 +1,8 @@
 @import "bourbon";
 
 body {
-	background:#454545;
-	color: white!important;
+	background:#ddd;
+	color: #454545!important;
 }
 
 hr{
