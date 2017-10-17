@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Examen 1</title>
+	<title>Tarea 3</title>
 	<link rel="stylesheet" href="../../css/bootstrap.min.css">
     <link rel="stylesheet" href="../../css/style.css">
     <script src="../../js/bootstrap.min.js"></script>
